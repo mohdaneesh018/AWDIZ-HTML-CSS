@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniChallenge Day - 5</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        button{
+            border: 2px solid green;
+            color: green;
+        }
+        input{
+            border: 2px solid brown;
+        }
+        textarea{
+            border: 2px solid brown;
+        }
+        fieldset{
+            box-shadow: 2px 4px 10px 0px red;
+        }
+        form{
+            width: 30%;
+            margin: auto;
+            background-color: gray;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+      <h1>Feedback Form:</h1>
+    <form>
+        <fieldset>
+            <legend>Feedback Form</legend>
+                <label for="name" >Name</label><br>
+                <input type="text" id="name" placeholder="Enter Your Name"/><br>
+                <label for="email" >Email</label><br>
+                <input required type="email" id="email" placeholder="Enter Your Email"/><br>
+                <label for="msg" >Message</label><br>
+                <textarea type="text" id="msg" placeholder="Enter Your Message" rows="4" cols="30"></textarea><br>
+                <label>Gender</label><br>
+                <input type="radio" id="gen">
+                <label for="gen">male</label>
+                <input type="radio" id="gen">
+                <label for="gen">female</label><br>
+                <input type="checkbox">
+                <label>Subscribe</label><br>
+                <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
