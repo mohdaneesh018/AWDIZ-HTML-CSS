@@ -1,0 +1,23 @@
+.hw1{
+    padding: 20px;
+    margin: 25px;
+    border: 2px solid blue;
+    width: 80%;
+    height: 20px;
+}
+
+.hw2{
+    padding: 40px;
+    margin: 50px;
+    border: 2px dotted red;
+    width: 60%;
+    height: 20px;
+}
+
+.hw3{
+    padding: 60px;
+    margin: 65px;
+    border: 2px dashed green;
+    width: 40%;
+    height: 20px;
+}
