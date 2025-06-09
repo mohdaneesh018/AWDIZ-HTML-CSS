@@ -1,0 +1,101 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.firstMen{
+    height: 50px;
+    width: 99%;
+    border: 2px solid red;
+    margin: 10px 5px;
+    display: flex;
+}
+
+.main-nav{
+    height: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    justify-content: space-evenly;
+    margin: 10px 10px;
+    margin-bottom: 10px;
+
+}
+
+sup{
+    color: red;
+}
+
+.main-nav2{
+    display: flex;
+    height: 30px;
+    width: 30%;
+    border: 1px solid gray;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+#main-nav3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30px;
+    margin: 10px 10px;
+    width: 16%;
+}
+
+.second-main{
+    margin-left: 10px;
+}
+
+.third-main{
+    margin: 20px 10px;
+    height: 30px;
+}
+
+.container{
+    display: flex;
+    height: 500px;
+    border: 2px solid green;
+    width: 20%;
+    margin: 10px 5px;
+}
+
+.recommended{
+    border: 1px solid black;
+    height: 25px;
+    width: 250px;
+    padding-left: 20px;
+    margin: 20px 10px;
+}
+
+.container-2{
+    /* display: flex; */
+    height: 500px;
+    border: 2px solid green;
+    width: 70%;
+    margin: 10px 5px;
+}
+
+#part-2{
+    display: flex;
+    height: 500px;
+    width: 95%;
+    margin: 10px 5px;
+}
+
+.img-1, .img-2, .img-3, .img-4, .img-5{
+    height: 200px;
+    width: 150px;
+    border: 2px solid red;
+    margin: 20px;
+    color: white;
+    background-color: green; 
+}
+
+.img{
+    display: flex;
+}

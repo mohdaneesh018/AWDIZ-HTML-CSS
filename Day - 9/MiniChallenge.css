@@ -1,0 +1,28 @@
+.outer-box{
+    height: 300px;
+    width:300px;
+    background-color: yellowgreen;
+    margin: 70px 70px;
+    /* position: relative; */
+}
+
+.position{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+}
+
+.position2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: relative;
+}
+
+.position3{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: fixed;
+}
