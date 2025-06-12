@@ -1,0 +1,17 @@
+header{
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    align-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    height: 200px;
+    width: 200px;
+    position: relative;
+}

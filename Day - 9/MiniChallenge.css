@@ -1,28 +1,31 @@
-.outer-box{
-    height: 300px;
-    width:300px;
-    background-color: yellowgreen;
-    margin: 70px 70px;
-    /* position: relative; */
-}
-
-.position{
-    height: 100px;
-    width: 100px;
+.First-box {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
     background-color: red;
-    position: relative;
+    z-index: 2;
 }
 
-.position2{
-    height: 100px;
-    width: 100px;
+.Second-box {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
     background-color: green;
-    position: relative;
+    z-index: 1;
 }
 
-.position3{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
+.Sec-box {
+    position: absolute;
+}
+
+.Third-box {
     position: fixed;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: blue;
 }
