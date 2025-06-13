@@ -5,13 +5,26 @@ header{
     background-color: red;
     color: white;
     align-content: center;
-    position: fixed;
-    top: 0;
-    left: 0;
+    padding-left: 10px;
 }
 
 .container{
+    border: 2px solid green;
+    width: 30%;
     height: 200px;
-    width: 200px;
-    position: relative;
+    color: black;
+    margin: 10px 20px;
+    padding: 10px 10px;
+    background-color: blue;
+    font-size: 30px;
+    position: absolute;
+}
+
+button{
+    background-color: darkgray;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20%;
+    position: absolute;
 }
